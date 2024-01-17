@@ -26,22 +26,22 @@
         border:2px dotted rgb(38, 38, 43);
       }
 
-      #r1c1 {
+      .r1c1 {
         background-color: teal;
       }
-      #r1c2 {
+      .r1c2 {
         background-color: thistle;
       }
-      #r2c1 {
+      .r2c1 {
         background-color: tomato;
       }
-      #r2c2 {
+      .r2c2 {
         background-color: turquoise;
       }
-      #r3c1 {
+      .r3c1 {
         background-color: violet;
       }
-      #r3c2 {
+      .r3c2 {
         background-color: yellowgreen;
       }
     </style>
@@ -53,20 +53,20 @@
     <div class="container">
       <!-- Stack the columns on mobile by making one full-width and the other half-width -->
       <div class="row">
-        <div class="col-md-4 col-sm-6" id="r1c1">.col-md-4</div>
-        <div class="col-md-8 col-sm-6" id="r1c2">.col-md-8</div>
+        <div class="col-md-4 col-sm-6 r1c1">Row1 col1</div>
+        <div class="col-md-8 col-sm-6 r1c2">Row1 col2</div>
       </div>
 
       <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
       <div class="row">
-        <div class="col-md-4 offset-md-2" id="r2c1">.col-md-4</div>
-        <div class="col-md-4 offset-md-2" id="r2c2">.col-md-4</div>
+        <div class="col-md-4 offset-md-2 r2c1">Row2 col1</div>
+        <div class="col-md-4 offset-md-2 r2c2">Row2 col2</div>
       </div>
 
       <!-- Columns are always 50% wide, on mobile and desktop -->
       <div class="row">
-        <div class="col-md-4 offset-md-2 col-sm-6" id="r3c1">.col-6</div>
-        <div class="col-md-4 offset-md-0 col-sm-6" id="r3c2">.col-6</div>
+        <div class="col-md-4 offset-md-2 col-sm-6 r3c1">Row3 col1</div>
+        <div class="col-md-4 offset-md-0 col-sm-6 r3c2">Row3 col2</div>
       </div>
     </div>
 
